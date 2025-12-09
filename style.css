@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #e67e22, #f39c12);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+nav {
+    background: #111;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 15px 25px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: #e67e22;
+}
+
+section {
+    background: white;
+    margin: 25px;
+    padding: 40px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #e67e22;
+    border-left: 5px solid #e67e22;
+    padding-left: 10px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.recipe-card {
+    margin-bottom: 25px;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.rating {
+    display: block;
+    margin: 10px 0;
+    color: #e67e22;
+    font-size: 20px;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.submit-form input,
+.submit-form textarea,
+.submit-form select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.btn {
+    background: #e67e22;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #c56d1a;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 25px;
+}
