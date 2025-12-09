@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TastyBites Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>TastyBites Recipe Blog</h1>
+    <p>Discover, Cook, and Share Delicious Recipes</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#browse">Browse Recipes</a></li>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#submit">Submit Recipe</a></li>
+    </ul>
+</nav>
+
+<section id="search">
+    <h2>Search Recipes</h2>
+    <div class="search-box">
+        <input type="text" placeholder="Search by name or ingredient">
+        <button class="btn">Search</button>
+    </div>
+</section>
+
+<section id="browse">
+    <h2>Popular Recipes</h2>
+
+    <div class="recipe-card">
+        <img src="C:\Users\Vishvjeet Singh\Downloads\alfredo pasta.jpg">
+        <h3>Creamy Alfredo Pasta</h3>
+        <p>A rich and creamy Italian-style pasta loaded with cheese and herbs.</p>
+        <span class="rating">★★★★★</span>
+        <button class="btn">View Recipe</button>
+    </div>
+
+    <div class="recipe-card">
+        <img src="C:\Users\Vishvjeet Singh\Downloads\garden salad.jpg">
+        <h3>Fresh Garden Salad</h3>
+        <p>A healthy mix of vegetables, olives, and light dressing.</p>
+        <span class="rating">★★★★☆</span>
+        <button class="btn">View Recipe</button>
+    </div>
+
+    <div class="recipe-card">
+        <img src="https://i.pinimg.com/736x/c3/82/53/c3825394eb2358a2b708810eb668a0c7.jpg ">
+        <h3>Grilled Chicken</h3>
+        <p>Tender grilled chicken with spices and lemon flavor.</p>
+        <span class="rating">★★★★★</span>
+        <button class="btn">View Recipe</button>
+    </div>
+</section>
+
+<section id="submit">
+    <h2>Submit Your Recipe</h2>
+
+    <form class="submit-form">
+        <label>Recipe Name:</label>
+        <input type="text" required>
+
+        <label>Your Name:</label>
+        <input type="text" required>
+
+        <label>Ingredients:</label>
+        <textarea rows="4" required></textarea>
+
+        <label>Steps:</label>
+        <textarea rows="5" required></textarea>
+
+        <label>Your Rating:</label>
+        <select required>
+            <option value="">Select</option>
+            <option>★★★★★</option>
+            <option>★★★★☆</option>
+            <option>★★★☆☆</option>
+            <option>★★☆☆☆</option>
+            <option>★☆☆☆☆</option>
+        </select>
+
+        <button class="btn">Submit Recipe</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 TastyBites Recipe Blog. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
